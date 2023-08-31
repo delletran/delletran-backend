@@ -1,0 +1,7 @@
+pandas
+boto3
+botocore
+jupyter
+fastapi
+uvicorn
+python-dotenv

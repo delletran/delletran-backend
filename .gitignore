@@ -1,0 +1,11 @@
+#  Cache
+__pycache__/
+
+# Environment variables
+.venv/
+.env
+
+# Temporary files
+.temp/
+
+.vercel
