@@ -1,10 +1,10 @@
-import os
 import json
+import os
+
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-
 
 app = FastAPI()
 
@@ -60,3 +60,7 @@ async def api_test_query( q:str = Query(None)):
     }
     
     return JSONResponse(response)
+
+
+# if __name__ == "__main__":
+#   uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
